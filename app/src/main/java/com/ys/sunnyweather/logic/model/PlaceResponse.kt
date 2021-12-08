@@ -2,7 +2,7 @@ package com.ys.sunnyweather.logic.model
 
 import com.google.gson.annotations.SerializedName
 
-data class PlaceResponse(val status: Int, val places: List<Place>)
+data class PlaceResponse(val status: String, val places: List<Place>)
 
 data class Place(
     val name: String,
